@@ -1,21 +1,23 @@
 {
-  "name": "typedart",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.25"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.0.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.7",
-    "typescript": "^4.4.4",
-    "vite": "^2.7.2",
-    "vue-tsc": "^0.29.8"
-  }
+    "name": "typedart",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "rimraf ./dist && vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "vue": "^3.2.25"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.0.0",
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5",
+        "rimraf": "^3.0.2",
+        "tailwindcss": "^3.0.7",
+        "typescript": "^4.4.4",
+        "vite": "^2.7.2",
+        "vue-tsc": "^0.29.8"
+    }
 }

@@ -18,4 +18,4 @@ Analyze your Typing Skills.
 
 ## License
 
-[MIT][./license]
+[MIT](./license)
