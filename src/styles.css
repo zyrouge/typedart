@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    font-family: "Roboto Mono", monospace;
+
+    @apply bg-gray-800 text-gray-100 min-h-screen h-full;
+}
+
+::-webkit-scrollbar {
+    @apply w-1 bg-gray-800;
+}
+
+::-webkit-scrollbar-track {
+    @apply rounded bg-amber-500/25;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply w-full rounded bg-amber-500;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-amber-600;
+}
+
+.form-border {
+    @apply outline-none border-2 border-transparent hover:border-amber-500 active:border-amber-500 focus:border-amber-500;
+}
