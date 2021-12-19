@@ -188,6 +188,7 @@ watch(
                         controller.expectedWordIndex.value
                     ) ?? ''
                 "
+                autofocus
             />
         </div>
     </div>
